@@ -13,4 +13,6 @@ void main(void) { //여기서 모든것을 작동 시킨다
 	int s;
 	s = Sum(5, 11);
 	printf("result = %d \n", s);
+
+	puts("HELLO MY NAME IS: AYDEN");
 }
