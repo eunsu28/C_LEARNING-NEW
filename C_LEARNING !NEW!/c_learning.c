@@ -5,6 +5,11 @@ int Sum(int value1, int value2) {
 	return result;
 }
 
+int Minus(int value1, int value2) {
+	int result = value1 - value2;
+	return result;
+}
+
 void main(void) { //여기서 모든것을 작동 시킨다
 	printf("Hello World\n");
 	int a = 1;
@@ -13,6 +18,9 @@ void main(void) { //여기서 모든것을 작동 시킨다
 	int s;
 	s = Sum(5, 11);
 	printf("result = %d \n", s);
+
+	int m = Minus(20, 4);
+	printf("RESULT IS %d \n", m);
 
 	puts("HELLO MY NAME IS: AYDEN");
 
