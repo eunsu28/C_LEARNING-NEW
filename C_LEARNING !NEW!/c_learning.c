@@ -27,7 +27,11 @@ void main(void) { //여기서 모든것을 작동 시킨다
 	int first = 1;
 	int second = 2;
 	int add = first + second;
-	printf("%d", add);
+	printf("%d\n", add);
+
+	if (first == 1) {
+		printf("HELLO\n");
+	}
 
 
 }
