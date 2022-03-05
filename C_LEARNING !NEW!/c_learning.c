@@ -24,6 +24,9 @@ void main(void) { //여기서 모든것을 작동 시킨다
 
 	puts("HELLO MY NAME IS: AYDEN");
 
+	int sum_minus = s + m;
+	printf("%d\n", sum_minus);
+
 	int first = 2;
 	int second = 2;
 	int add = first + second;
