@@ -39,5 +39,9 @@ void main(void) { //여기서 모든것을 작동 시킨다
 		printf("BYE\n");
 	}
 
+	int fornum = 1;
+	for (fornum = 1; fornum < 11; fornum++) {
+		printf("%d\n", fornum);
+	}
 	
 }
