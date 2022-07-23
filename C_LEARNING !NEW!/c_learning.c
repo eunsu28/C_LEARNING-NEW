@@ -45,5 +45,9 @@ void main(void) { //여기서 모든것을 작동 시킨다
 	}
 	
 	int tree = 1;
+	while (tree < 11) {
+		printf("%d time you've hit the tree\n", tree);
+		tree++;
+	}
 	
 }
