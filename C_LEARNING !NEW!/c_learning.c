@@ -37,14 +37,20 @@ void main(void) {
 	printf("%d\n", sum_minus);
 
 	int fornum = 1;
-	for (fornum = 1; fornum < 11; fornum++) {
+	for (fornum = 1; fornum < 4; fornum++) {
 		printf("NUMBER: %d\n", fornum);
 	}
 	
 	int tree = 1;
 	while (tree < 11) {
-		printf("%d time you've hit the tree\n", tree);
-		tree++;
+		if (tree < 10) {
+			printf("%d time you've hit the tree\n", tree);
+			tree++;
+		}
+		else {
+			printf("tree is going over\n");
+			break;
+		}
 	}
 
 	int mid = mid_aver(100, 99, 97, 96, 96, 92);
