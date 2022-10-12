@@ -18,8 +18,6 @@ int mid_aver(int one, int two, int three, int four, int five, int six) {
 
 void main(void) {
 	printf("Hello World\n");
-	int a = 1;
-	printf("%d place get gold medal\n", a);
 	
 	int s;
 	s = Sum(5, 11);
