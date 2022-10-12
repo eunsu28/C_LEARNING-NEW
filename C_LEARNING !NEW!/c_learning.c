@@ -10,6 +10,12 @@ int Minus(int value1, int value2) {
 	return result;
 }
 
+int mid_aver(int one, int two, int three, int four, int five, int six) {
+	int result = one + two + three + four + five + six;
+	int devide = result / 6;
+	return devide;
+}
+
 void main(void) {
 	printf("Hello World\n");
 	int a = 1;
@@ -32,7 +38,7 @@ void main(void) {
 
 	int fornum = 1;
 	for (fornum = 1; fornum < 11; fornum++) {
-		printf("%d\n", fornum);
+		printf("NUMBER: %d\n", fornum);
 	}
 	
 	int tree = 1;
@@ -40,4 +46,7 @@ void main(void) {
 		printf("%d time you've hit the tree\n", tree);
 		tree++;
 	}
+
+	int mid = mid_aver(100, 99, 97, 96, 96, 92);
+	printf("YOUR MID EXAM'S AVERAGE = %d\n", mid);
 }
