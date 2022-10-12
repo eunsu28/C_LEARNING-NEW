@@ -22,22 +22,13 @@ void main(void) {
 	int m = Minus(20, 4);
 	printf("RESULT IS %d \n", m);
 
+	int m2 = Minus(1, 4);
+	printf("RESULT IS %d \n", m2);
+
 	puts("HELLO MY NAME IS: AYDEN");
 
 	int sum_minus = s + m;
 	printf("%d\n", sum_minus);
-
-	int first = 2;
-	int second = 2;
-	int add = first + second;
-	printf("%d\n", add);
-
-	if (first == 1) {
-		printf("HELLO\n");
-	}
-	else {
-		printf("BYE\n");
-	}
 
 	int fornum = 1;
 	for (fornum = 1; fornum < 11; fornum++) {
