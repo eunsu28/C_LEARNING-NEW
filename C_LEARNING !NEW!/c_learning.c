@@ -18,6 +18,7 @@ int mid_aver(int one, int two, int three, int four, int five, int six) {
 
 void main(void) {
 	printf("Hello World\n");
+	puts("HELLO MY NAME IS: AYDEN");
 	
 	int s;
 	s = Sum(5, 11);
@@ -25,11 +26,6 @@ void main(void) {
 
 	int m = Minus(20, 4);
 	printf("RESULT IS %d \n", m);
-
-	int m2 = Minus(1, 4);
-	printf("RESULT IS %d \n", m2);
-
-	puts("HELLO MY NAME IS: AYDEN");
 
 	int sum_minus = s + m;
 	printf("%d\n", sum_minus);
