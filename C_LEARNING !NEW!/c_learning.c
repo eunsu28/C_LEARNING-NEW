@@ -45,5 +45,5 @@ void main(void) {
 	}
 
 	int mid = mid_aver(100, 99, 97, 96, 96, 92);
-	printf("YOUR MID EXAM'S AVERAGE = %d\n", mid);
+	printf("YOUR MID EXAM'S AVERAGE = %f\n", mid);
 }
