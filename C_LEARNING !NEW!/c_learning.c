@@ -18,7 +18,7 @@ int mid_aver(int one, int two, int three, int four, int five, int six) {
 
 void main(void) {
 	printf("Hello World\n");
-	puts("HELLO MY NAME IS: AYDEN");
+	puts("HELLO MY NAME IS AYDEN");
 	
 	int s;
 	s = Sum(5, 11);
