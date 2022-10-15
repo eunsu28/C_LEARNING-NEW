@@ -12,7 +12,7 @@ int Minus(int value1, int value2) {
 
 int mid_aver(int one, int two, int three, int four, int five, int six) {
 	int result = one + two + three + four + five + six;
-	int devide = result / 6;
+	float devide = (result / 6);
 	return devide;
 }
 
@@ -44,6 +44,6 @@ void main(void) {
 		}
 	}
 
-	int mid = mid_aver(100, 99, 97, 96, 96, 92);
+	float mid = mid_aver(100, 99, 97, 96, 96, 92);
 	printf("YOUR MID EXAM'S AVERAGE = %f\n", mid);
 }
