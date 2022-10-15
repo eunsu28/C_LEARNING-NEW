@@ -16,6 +16,12 @@ int mid_aver(int one, int two, int three, int four, int five, int six) {
 	return devide;
 }
 
+int for_practice(int a) {
+	for (; a < a + 11; a++) {
+		return a;
+	}
+}
+
 void main(void) {
 	printf("Hello World\n");
 	puts("HELLO MY NAME IS AYDEN");
@@ -46,4 +52,7 @@ void main(void) {
 
 	float mid = mid_aver(100, 99, 97, 96, 96, 92);
 	printf("YOUR MID EXAM'S AVERAGE = %f\n", mid);
+
+	int a = for_practice(10);
+	printf("%d\n", a);
 }
