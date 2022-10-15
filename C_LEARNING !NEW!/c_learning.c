@@ -28,7 +28,7 @@ void main(void) {
 	printf("RESULT IS %d \n", m);
 
 	int fornum = 1;
-	for (fornum = 1; fornum < 4; fornum++) {
+	for (fornum = 1; fornum < 6; fornum++) {
 		printf("NUMBER: %d\n", fornum);
 	}
 	
