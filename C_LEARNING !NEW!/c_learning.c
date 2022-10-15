@@ -27,9 +27,6 @@ void main(void) {
 	int m = Minus(20, 4);
 	printf("RESULT IS %d \n", m);
 
-	int sum_minus = s + m;
-	printf("%d\n", sum_minus);
-
 	int fornum = 1;
 	for (fornum = 1; fornum < 4; fornum++) {
 		printf("NUMBER: %d\n", fornum);
