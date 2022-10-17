@@ -47,8 +47,11 @@ void main(void) {
 	float mid = mid_aver(100, 99, 97, 96, 96, 92);
 	printf("YOUR MID EXAM'S AVERAGE = %f\n", mid);
 
-	int a = Sum(100, 200);
+	int a = Sum(100, 400);
 	if (a > 299) {
 		puts("HELLO");
+	}
+	else {
+		puts("BYE");
 	}
 }
