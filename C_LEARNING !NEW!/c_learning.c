@@ -10,9 +10,9 @@ int Minus(int value1, int value2) {
 	return result;
 }
 
-int mid_aver(int one, int two, int three, int four, int five, int six) {
-	int result = one + two + three + four + five + six;
-	float devide = (result / 6);
+int mid_aver(int one, int two, int three, int four, int five, int six, int seven) {
+	int result = one + two + three + four + five + six + seven;
+	float devide = (result / 7);
 	return devide;
 }
 
@@ -44,8 +44,8 @@ void main(void) {
 		}
 	}
 
-	float mid = mid_aver(100, 99, 97, 96, 96, 92);
-	printf("YOUR MID EXAM'S AVERAGE = %f\n", mid);
+	float fin = mid_aver(100, 100, 99, 92, 90, 94, 97);
+	printf("YOUR MID EXAM'S AVERAGE = %f\n", fin);
 
 	int a = Sum(100, 200);
 	if (a > 299) {
