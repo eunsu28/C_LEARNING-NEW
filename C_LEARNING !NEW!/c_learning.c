@@ -15,5 +15,4 @@ void main(void) {
 	}
 	int for_function = Sum(4, 5);
 	printf("%d\n", for_function);
-	//this is comment
 }
