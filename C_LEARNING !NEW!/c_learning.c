@@ -4,6 +4,10 @@ int Sum(int a, int b) {
 	return a + b;
 }
 
+int Divide(int a, int b) {
+	return a / b;
+}
+
 void main(void) {
 	printf("Hello, World\n");
 	int a = 2;
@@ -15,4 +19,6 @@ void main(void) {
 	}
 	int for_function = Sum(4, 5);
 	printf("%d\n", for_function);
+	int for_divide = Divide(10, 5);
+	printf("%d\n", for_divide);
 }
